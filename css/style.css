@@ -367,6 +367,21 @@ img {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("SourceSans3-Light.woff2") format("woff2"), url("SourceSans3-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("SourceSans3-Regular.woff2") format("woff2"), url("SourceSans3-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("SourceSans3-Bold.woff2") format("woff2"), url("SourceSans3-Bold.woff") format("woff");
+  font-weight: 700;
+}
 .toggle_nav {
   position: relative;
   width: 24px;
@@ -497,4 +512,16 @@ input#show_menu:checked ~ .nav {
   .logo img {
     width: 157px;
   }
+}
+
+.offer__title {
+  font-size: 24px;
+  margin: 0 0 11px;
+  line-height: 1.25;
+}
+.offer__desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
